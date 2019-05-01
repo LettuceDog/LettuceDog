@@ -1,0 +1,123 @@
+/* =================================== */
+/*  Construction Page
+/* =================================== */
+
+body {
+    color: #242624;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h3, h6 {
+    font-family: "Poppins", sans-serif;
+    color: #242624;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+h1, h3, h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #141e14;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+.text-black {
+  color: #242624;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.header-area {
+    background-color: #CEFFD4;
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.main-menubar {
+    position: relative;
+}
+
+nav {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  transform-origin: 100% 50%;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(20, 30, 20, 0.7);
+  margin: 0 25px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contents-area {
+    background-color: #E6FFE9;
+    height:880px;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+.detail-panel {
+    margin-top: 32px;
+}
+
+    .detail-panel .detail-image {
+        height: 128px;
+        width: 128px;
+        margin: auto;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        position: relative;
+    }
+
+.footer-area {
+    font-size: 16px;
+    background-color: #F4FFF5;
+    color: #7A7F7A;
+    padding: 16px 0;
+}
